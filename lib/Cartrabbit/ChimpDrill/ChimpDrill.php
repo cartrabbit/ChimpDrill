@@ -1,9 +1,14 @@
 <?php
-
-namespace FlorianKoerner\ChimpDrill;
+/**
+ * @package     J2Store
+ * @copyright   Copyright (c)2018 Ramesh Elamathi / Cartrabbit
+ * @author      Alagesan <support@j2store.org>
+ * @license     GNU GPL v3 or later
+ */
+namespace Cartrabbit\ChimpDrill;
 
 /**
- * ChimpDrill a simple mailchimp / mandrill merge tags parser
+ * tags parser
  */
 class ChimpDrill
 {
