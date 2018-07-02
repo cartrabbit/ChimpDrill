@@ -20,7 +20,7 @@ Parser for the merge tags syntax of [Mailchimp] and [Mandrill]. Supports
 Download ChimpDrill by using [composer](https://getcomposer.org):
 
 ``` bash
-php composer.phar require florian-koerner/chimpdrill:dev-master
+php composer.phar require cartrabbit/chimpdrill:dev-master
 ```
 
 Or add the code below to your `composer.json`:
@@ -28,20 +28,9 @@ Or add the code below to your `composer.json`:
 ``` json
 {
     "require": {
-        "florian-koerner/chimpdrill": "dev-master"
+        "cartrabbit/ChimpDrill": "dev-master"
     }
 }
-```
-
-
-## Usage
-
-``` php
-$chimpdrill = new \FlorianKoerner\ChimpDrill\ChimpDrill($message, $placeholder);
-
-var_dump((string) $chimpdrill);
-// or
-var_dump($chimpdrill->getParsed());
 ```
 
 
@@ -105,8 +94,3 @@ array(
     <li>Best movie ever: The Last Song</li>
 </ul>
 ```
-
-
-## I Love Open Source
-
-[![I Love Open Source](http://www.iloveopensource.io/images/logo-lightbg.png)](http://www.iloveopensource.io/users/FlorianKoerner)
